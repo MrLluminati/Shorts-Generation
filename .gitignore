@@ -1,0 +1,58 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local runtimes and downloaded dependencies
+vendor/
+.venv/
+venv/
+env/
+
+# Raw source media and rendered media
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.wav
+*.mp3
+*.aac
+*.m4a
+
+# Generated images and review/contact sheets
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Generated packages/exports
+*.zip
+
+# Project output folders
+outputs/
+work/
+movies/
+archive/
+
+# Live pipeline generated folders
+live_video_pipeline/input/
+live_video_pipeline/work/
+live_video_pipeline/short_form/
+live_video_pipeline/long_form/
+live_video_pipeline/review/
+live_video_pipeline/thumbnails/
+live_video_pipeline/metadata/*
+!live_video_pipeline/metadata/
+!live_video_pipeline/metadata/live_upload_metadata_template.csv
+
+# Local/generated implementation assets
+implementation/brand_assets/
+implementation/monetization_sprint_tracker.xlsx
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
