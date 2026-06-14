@@ -2,6 +2,8 @@
 
 Use this folder for future videos from your own channel.
 
+Current MrLluminati Gaming Shorts strategy lives in `../docs/SHORTS_STRATEGY.md`. Use that file as the primary rulebook for Shorts length, hooks, content pillars, metadata, and upload checks.
+
 ## Input
 
 Place downloaded YouTube live recordings in `live_video_pipeline/input/`.
@@ -18,10 +20,10 @@ For each live video, include one short note with:
 
 ### Short Form
 
-- 15-60 seconds
+- Preferred 10-18 seconds, acceptable 8-22 seconds
 - Vertical 1080x1920
 - Strong hook in first 1-2 seconds
-- Fast captions
+- Emotion-first hook text
 - Clean zooms, punch-ins, sound polish, and light effects
 - Metadata: title, description, hashtags, tags, pinned comment
 
@@ -47,7 +49,7 @@ For each live video, include one short note with:
 
 For each source live video, create:
 
-- 3-8 Shorts
+- 1-3 strong Shorts by default, more only when the source truly has multiple strong payoffs
 - 1 long-form edited upload
 - Metadata CSV and Markdown
 - Review frames/contact sheets
